@@ -1,0 +1,8 @@
+.bg-ifpr-light { background-color: #43a047; }
+.bg-ifpr-dark { background-color: #388e3c; }
+header img { width: 80px; }
+footer img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}

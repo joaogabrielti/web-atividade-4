@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Instituto Federal do Paraná - Campus Paranaguá</title>
+</head>
+<body>
+    <header class="bg-ifpr-light text-white">
+        <div class="container d-flex flex-row align-items-center p-2">
+            <img class="img-fluid" src="images/logo.png" alt="Logotipo do Instituto Federal do Paraná">
+            <div class="text-end ms-auto">
+                <h1 class="mb-0 fs-3 text-uppercase">Instituto Federal do Paraná</h1>
+                <h2 class="mb-0 fs-5">Campus Paranaguá</h2>
+            </div>
+        </div>
+    </header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-ifpr-dark mb-3">
+        <div class="container">
+            <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">O Instituto</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Localização</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Galeria</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main class="container mb-3">
+        <h1 class="fs-4 fw-light">Galeria de Fotos</h1>
+        <div class="row g-2 mb-3">
+            
+        </div>
+        <div class="d-flex justify-content-center justify-content-md-end">
+            <nav aria-label="Navegação de páginas da galeria">
+                <ul class="pagination">
+                    <li class="page-item">
+                        <a class="page-link" href="#" aria-label="Anterior">
+                            <span aria-hidden="true">&laquo;</span>
+                        </a>
+                    </li>
+                    <li class="page-item"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item"><a class="page-link" href="#">4</a></li>
+                    <li class="page-item"><a class="page-link" href="#">5</a></li>
+                    <li class="page-item"><a class="page-link" href="#">6</a></li>
+                    <li class="page-item"><a class="page-link" href="#">7</a></li>
+                    <li class="page-item"><a class="page-link" href="#">8</a></li>
+                    <li class="page-item"><a class="page-link" href="#">9</a></li>
+                    <li class="page-item">
+                        <a class="page-link" href="#" aria-label="Próxima">
+                            <span aria-hidden="true">&raquo;</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </main>
+    <section class="bg-ifpr-light text-white">
+        <div class="container py-3">
+            <h1 class="fs-5 fw-light text-center">Contato</h1>
+            <form class="row g-2 justify-content-center" action="" method="POST">
+                <div class="col-6 col-md-4">
+                    <input class="form-control mb-1" type="text" name="nome" id="nome" placeholder="Nome Completo">
+                    <input class="form-control mb-1" type="email" name="email" id="email" placeholder="Endereço de Email">
+                    <button class="btn btn-primary w-100" type="submit">Enviar</button>
+                </div>
+                <div class="col-6 col-md-4">
+                    <textarea class="form-control h-100" name="mensagem" id="mensagem" placeholder="Mensagem"></textarea>
+                </div>
+            </form>
+        </div>
+    </section>
+    <footer class="bg-ifpr-dark text-white">
+        <div class="container d-flex flex-column flex-md-row py-3">
+            <img class="ms-auto me-auto ms-md-0 me-md-4" src="images/person.png" alt="Imagem padrão">
+            <div class="d-flex flex-row justify-content-center mt-2 mt-md-0">
+                <ul class="list-unstyled mx-2">
+                    <li class="fs-5 fw-bold">Area A</li>
+                    <li><a class="link-light" href="#">Item 2</a></li>
+                    <li><a class="link-light" href="#">Item 3</a></li>
+                    <li><a class="link-light" href="#">Item 4</a></li>
+                </ul>
+                <ul class="list-unstyled mx-2">
+                    <li class="fs-5 fw-bold">Area B</li>
+                    <li><a class="link-light" href="#">Item 2</a></li>
+                    <li><a class="link-light" href="#">Item 3</a></li>
+                    <li><a class="link-light" href="#">Item 4</a></li>
+                </ul>
+                <ul class="list-unstyled mx-2">
+                    <li class="fs-5 fw-bold">Area C</li>
+                    <li><a class="link-light" href="#">Item 2</a></li>
+                    <li><a class="link-light" href="#">Item 3</a></li>
+                    <li><a class="link-light" href="#">Item 4</a></li>
+                </ul>
+            </div>
+            <div class="d-flex flex-row justify-content-center mt-2 mt-md-auto mt-md-0 ms-auto me-auto me-md-0">
+                <ul class="list-inline fs-1">
+                    <li class="list-inline-item"><a class="link-light" href="#"><i class="bi bi-facebook"></i></a></li>
+                    <li class="list-inline-item"><a class="link-light" href="#"><i class="bi bi-instagram"></i></a></li>
+                    <li class="list-inline-item"><a class="link-light" href="#"><i class="bi bi-whatsapp"></i></a></li>
+                    <li class="list-inline-item"><a class="link-light" href="#"><i class="bi bi-google"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
